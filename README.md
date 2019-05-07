@@ -9,3 +9,5 @@
 [变态跳台阶（JumpFloorII）](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387)*
 
 [构建乘积数组（Multiply）](https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46)*
+
+[求1+2+3+...+n（SumSolution）](https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1)*
