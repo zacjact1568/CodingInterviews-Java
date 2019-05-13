@@ -12,4 +12,6 @@
 
 [求1+2+3+...+n（SumSolution）](https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1)*
 
-[用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6)
+[用两个栈实现队列（StacksAsQueue）](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6)
+
+[连续子数组的最大和（FindGreatestSumOfSubArray）](https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484)
