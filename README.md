@@ -14,4 +14,6 @@
 
 [用两个栈实现队列（StacksAsQueue）](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6)
 
-[连续子数组的最大和（FindGreatestSumOfSubArray）](https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484)
+[连续子数组的最大和（FindGreatestSumOfSubArray）](https://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484)*
+
+[矩形覆盖（RectCover）](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6)*
