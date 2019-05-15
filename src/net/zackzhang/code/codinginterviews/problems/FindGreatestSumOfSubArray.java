@@ -46,7 +46,30 @@ public class FindGreatestSumOfSubArray {
         return maxSum;
     }
 
+    // 动态规划
+    public int find3(int[] array) {
+        int len = array.length;
+        // sums[i] 表示以 array[i] 结尾的连续子数组最大和
+        int[] sums = new int[len];
+        int maxSum = Integer.MIN_VALUE;
+        for (int i = 0; i < len; i++) {
+            if (i == 0) {
+                sums[i] = array[i];
+            } else {
+                // 累加或重新算，看谁结果大就选择谁
+                // 关键看上一个累计值 sums[i - 1]
+                // 如果其为正数，累加后肯定比重新算大，如果为负则小
+                // 这样就可以和 find2 中的思想对应起来了
+                sums[i] = Math.max(sums[i - 1] + array[i], array[i]);
+            }
+            if (sums[i] > maxSum) {
+                maxSum = sums[i];
+            }
+        }
+        return maxSum;
+    }
+
     public static void test() {
-        System.out.println(new FindGreatestSumOfSubArray().find2(new int[]{6, -3, -2, 7, -15, 1, 2, 2}));
+        System.out.println(new FindGreatestSumOfSubArray().find3(new int[]{6, -3, -2, 7, -15, 1, 2, 2}));
     }
 }
