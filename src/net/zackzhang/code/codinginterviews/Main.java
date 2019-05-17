@@ -5,6 +5,6 @@ import net.zackzhang.code.codinginterviews.problems.*;
 public class Main {
 
     public static void main(String[] args) {
-        FindGreatestSumOfSubArray.test();
+        NumberOf1.test();
     }
 }

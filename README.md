@@ -19,3 +19,5 @@
 [矩形覆盖（RectCover）](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6)*
 
 [跳台阶（JumpFloor）](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4)
+
+[二进制中1的个数（NumberOf1）](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8)*
