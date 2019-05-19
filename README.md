@@ -21,3 +21,5 @@
 [跳台阶（JumpFloor）](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4)
 
 [二进制中1的个数（NumberOf1）](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8)*
+
+[平衡二叉树（IsBalanced）](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222)*
