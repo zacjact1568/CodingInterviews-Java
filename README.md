@@ -23,3 +23,5 @@
 [二进制中1的个数（NumberOf1）](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8)*
 
 [平衡二叉树（IsBalanced）](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222)*
+
+[整数中1出现的次数（从1到n整数中1出现的次数）（NumberOf1Between1AndN）](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6)*
