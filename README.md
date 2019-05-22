@@ -27,3 +27,5 @@
 [整数中1出现的次数（从1到n整数中1出现的次数）（NumberOf1Between1AndN）](https://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6)*
 
 [两个链表的第一个公共结点（FindFirstCommonNode）](https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46)*
+
+[旋转数组的最小数字（MinNumberInRotateArray）](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba)*
