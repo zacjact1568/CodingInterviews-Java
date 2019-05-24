@@ -29,3 +29,5 @@
 [两个链表的第一个公共结点（FindFirstCommonNode）](https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46)*
 
 [旋转数组的最小数字（MinNumberInRotateArray）](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba)*
+
+[数值的整数次方（Power）](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00)*
