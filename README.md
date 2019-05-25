@@ -33,3 +33,5 @@
 [数值的整数次方（Power）](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00)*
 
 [包含min函数的栈（StackWithMinFunction）](https://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49)*
+
+[链表中环的入口结点（EntryNodeOfLoop）](https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4)*
