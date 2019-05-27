@@ -35,3 +35,5 @@
 [包含min函数的栈（StackWithMinFunction）](https://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49)*
 
 [链表中环的入口结点（EntryNodeOfLoop）](https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4)*
+
+[字符流中第一个不重复的字符（FirstAppearingOnce）](https://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720)
