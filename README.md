@@ -42,4 +42,6 @@
 
 [对称的二叉树（IsSymmetrical）](https://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb)
 
-[把二叉树打印成多行（PrintTree）](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288)*
+[把二叉树打印成多行（PrintTree）](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288)
+
+[数字在排序数组中出现的次数（GetNumberOfK）](https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2)
