@@ -45,3 +45,5 @@
 [把二叉树打印成多行（PrintTree）](https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288)
 
 [数字在排序数组中出现的次数（GetNumberOfK）](https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2)
+
+[斐波那契数列（Fibonacci）](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3)
