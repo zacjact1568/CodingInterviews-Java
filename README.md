@@ -47,3 +47,5 @@
 [数字在排序数组中出现的次数（GetNumberOfK）](https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2)
 
 [斐波那契数列（Fibonacci）](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3)
+
+[孩子们的游戏(圆圈中最后剩下的数)（LastRemaining）](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6)
