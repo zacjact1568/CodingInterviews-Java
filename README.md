@@ -49,3 +49,5 @@
 [斐波那契数列（Fibonacci）](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3)
 
 [孩子们的游戏(圆圈中最后剩下的数)（LastRemaining）](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6)
+
+[二叉树的下一个结点（GetNext）](https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e)
