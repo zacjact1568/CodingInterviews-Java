@@ -51,3 +51,5 @@
 [孩子们的游戏(圆圈中最后剩下的数)（LastRemaining）](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6)
 
 [二叉树的下一个结点（GetNext）](https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e)
+
+[数组中只出现一次的数字（FindNumsAppearOnce）](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811)
