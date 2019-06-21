@@ -53,3 +53,5 @@
 [二叉树的下一个结点（GetNext）](https://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e)
 
 [数组中只出现一次的数字（FindNumsAppearOnce）](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811)
+
+[反转链表（ReverseList）](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca)
