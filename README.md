@@ -55,3 +55,5 @@
 [数组中只出现一次的数字（FindNumsAppearOnce）](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811)
 
 [反转链表（ReverseList）](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca)
+
+[栈的压入、弹出序列（IsPopOrder）](https://www.nowcoder.com/practice/d77d11405cc7470d82554cb392585106)
