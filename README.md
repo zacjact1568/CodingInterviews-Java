@@ -57,3 +57,5 @@
 [反转链表（ReverseList）](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca)
 
 [栈的压入、弹出序列（IsPopOrder）](https://www.nowcoder.com/practice/d77d11405cc7470d82554cb392585106)
+
+[和为S的两个数字（FindNumbersWithSum）](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b)
