@@ -61,3 +61,5 @@
 [和为S的两个数字（FindNumbersWithSum）](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b)
 
 [数组中重复的数字（DuplicateNumber）](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8)
+
+[二叉搜索树与双向链表（Convert）](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5)
