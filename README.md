@@ -63,3 +63,5 @@
 [数组中重复的数字（DuplicateNumber）](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8)
 
 [二叉搜索树与双向链表（Convert）](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5)
+
+[数组中出现次数超过一半的数字（MoreThanHalfNum）](https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163)
