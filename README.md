@@ -65,3 +65,5 @@
 [二叉搜索树与双向链表（Convert）](https://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5)
 
 [数组中出现次数超过一半的数字（MoreThanHalfNum）](https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163)
+
+[合并两个排序的链表（Merge）](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337)
