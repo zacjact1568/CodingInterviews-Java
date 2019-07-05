@@ -71,3 +71,5 @@
 [把数组排成最小的数（PrintMinNumber）](https://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993)
 
 [把字符串转换成整数（StrToInt）](https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e)
+
+[从上往下打印二叉树（PrintFromTopToBottom）](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701)
