@@ -75,3 +75,5 @@
 [从上往下打印二叉树（PrintFromTopToBottom）](https://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701)
 
 [和为S的连续正数序列（FindContinuousSequence）](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe)
+
+[表示数值的字符串（IsNumeric）](https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2)
