@@ -79,3 +79,5 @@
 [表示数值的字符串（IsNumeric）](https://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2)
 
 [第一个只出现一次的字符（FirstNotRepeatingChar）](https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c)
+
+[二叉树中和为某一值的路径（FindPath）](https://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca)
