@@ -91,3 +91,5 @@
 [从尾到头打印链表（PrintListFromTailToHead）](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035)
 
 [替换空格（ReplaceSpace）](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423)
+
+[滑动窗口的最大值（MaxInWindows）](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788)
