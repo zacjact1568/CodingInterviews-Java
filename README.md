@@ -95,3 +95,5 @@
 [滑动窗口的最大值（MaxInWindows）](https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788)
 
 [二维数组中的查找（FindIn2DArray）](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e)
+
+[二叉搜索树的第k个结点（KthNode）](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a)
