@@ -97,3 +97,5 @@
 [二维数组中的查找（FindIn2DArray）](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e)
 
 [二叉搜索树的第k个结点（KthNode）](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a)
+
+[二叉搜索树的后序遍历序列（VerifySequenceOfBST）](https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd)
