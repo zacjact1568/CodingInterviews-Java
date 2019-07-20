@@ -99,3 +99,5 @@
 [二叉搜索树的第k个结点（KthNode）](https://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a)
 
 [二叉搜索树的后序遍历序列（VerifySequenceOfBST）](https://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd)
+
+[按之字形顺序打印二叉树（PrintTreeInZ）](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0)
