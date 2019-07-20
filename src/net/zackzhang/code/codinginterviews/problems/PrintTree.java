@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/** 把二叉树打印成多行 */
 public class PrintTree {
 
     private static class TreeNode {
@@ -79,6 +80,35 @@ public class PrintTree {
         return result;
     }
 
+    private ArrayList<ArrayList<Integer>> print3(TreeNode pRoot) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        if (pRoot == null) return result;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(pRoot);
+        while (!q.isEmpty()) {
+            // 循环一次打印一层
+            ArrayList<Integer> layer = new ArrayList<>();
+            // 对于一次循环，初始队列元素就是这次循环对应层的节点
+            // 所以需要事先单独保存该层节点个数
+            int num = q.size();
+            // 队列的前 num 个元素才是该层的节点
+            // 后面可能还有元素，那是下一层的节点
+            for (int i = 0; i < num; i++) {
+                TreeNode node = q.poll();
+                if (node != null) {
+                    layer.add(node.val);
+                    q.add(node.left);
+                    q.add(node.right);
+                }
+            }
+            // 当 node 为 null 时，layer 为空
+            if (!layer.isEmpty()) {
+                result.add(layer);
+            }
+        }
+        return result;
+    }
+
     public static void test() {
         // 构造二叉树
         TreeNode a = new TreeNode(8);
@@ -94,6 +124,6 @@ public class PrintTree {
         b.right = e;
         c.left = f;
         c.right = g;
-        System.out.println(new PrintTree().print2(a));
+        System.out.println(new PrintTree().print3(a));
     }
 }
