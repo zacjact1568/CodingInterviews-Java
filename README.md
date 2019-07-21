@@ -103,3 +103,5 @@
 [按之字形顺序打印二叉树（PrintTreeInZ）](https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0)
 
 [树的子结构（HasSubtree）](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88)
+
+[重建二叉树（ReconstructTree）](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6)
