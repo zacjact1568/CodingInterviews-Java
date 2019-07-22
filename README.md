@@ -105,3 +105,5 @@
 [树的子结构（HasSubtree）](https://www.nowcoder.com/practice/6e196c44c7004d15b1610b9afca8bd88)
 
 [重建二叉树（ReconstructTree）](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6)
+
+[机器人的运动范围（MovingCount）](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8)
