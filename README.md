@@ -111,3 +111,5 @@
 [矩阵中的路径（HasPath）](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc)
 
 [序列化二叉树（Serialize）](https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84)
+
+[丑数（GetUglyNumber）](https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b)
