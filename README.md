@@ -109,3 +109,5 @@
 [机器人的运动范围（MovingCount）](https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8)
 
 [矩阵中的路径（HasPath）](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc)
+
+[序列化二叉树（Serialize）](https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84)
