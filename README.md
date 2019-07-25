@@ -113,3 +113,5 @@
 [序列化二叉树（Serialize）](https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84)
 
 [丑数（GetUglyNumber）](https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b)
+
+[最小的K个数（GetLeastNumbers）](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf)
