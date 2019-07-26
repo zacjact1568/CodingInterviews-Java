@@ -1,12 +1,13 @@
 package net.zackzhang.code.codinginterviews.problems;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 /** 最小的K个数 */
 public class GetLeastNumbers {
 
-    // 最小堆
+    // 小顶堆
     private ArrayList<Integer> get(int[] input, int k) {
         ArrayList<Integer> res = new ArrayList<>();
         if (k > input.length) return res;
@@ -20,7 +21,7 @@ public class GetLeastNumbers {
         return res;
     }
 
-    // 利用快速排序的分割思想
+    // 快速排序的分割思想
     private ArrayList<Integer> get2(int[] input, int k) {
         ArrayList<Integer> res = new ArrayList<>();
         if (k > input.length) return res;
@@ -30,7 +31,7 @@ public class GetLeastNumbers {
         while (pi != k - 1) {
             // 循环直到枢轴等于 k - 1
             // 则 k - 1 位置之前的数都比它小，之后的数都比它大
-            // 则 0 ~ k - 1 就是最小的 k 个数（可能无序）
+            // 则 0 ~ k - 1 就是最小的 k 个数
             if (pi > k - 1) {
                 // 若枢轴位置在 k - 1 之后，将结束位置设为枢轴的前一个位置
                 end = pi - 1;
@@ -41,7 +42,7 @@ public class GetLeastNumbers {
             // 再次分割
             pi = partition(input, start, end);
         }
-        // 前 k 个元素就是所求
+        // 前 k 个元素就是所求（可能无序）
         for (int i = 0; i < k; i++) {
             res.add(input[i]);
         }
@@ -67,12 +68,12 @@ public class GetLeastNumbers {
         return i;
     }
 
-    // 利用冒泡排序
+    // 冒泡排序
     private ArrayList<Integer> get3(int[] input, int k) {
         ArrayList<Integer> res = new ArrayList<>();
         if (k > input.length) return res;
         // 冒泡排序每趟确定一个元素的最终位置
-        // 因此只用进行 k 趟，确定前 k 个元素的最终位置，就是最小的 k 个数（有序）
+        // 因此只用进行 k 趟，确定前 k 个元素的最终位置，就是最小的 k 个数
         for (int i = 0; i < k; i++) {
             // 从后往前冒泡
             for (int j = input.length - 1; j > i; j--) {
@@ -83,15 +84,39 @@ public class GetLeastNumbers {
                 }
             }
         }
-        // 前 k 个元素就是所求
+        // 前 k 个元素就是所求（有序）
         for (int i = 0; i < k; i++) {
             res.add(input[i]);
         }
         return res;
     }
 
+    // 大顶堆
+    private ArrayList<Integer> get4(int[] input, int k) {
+        ArrayList<Integer> res = new ArrayList<>();
+        if (k > input.length) return res;
+        // 构造大顶堆
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        for (int num : input) {
+            if (pq.size() != k) {
+                // 前 k 个元素，直接入堆
+                pq.offer(num);
+            } else if (pq.peek() > num) {
+                // 后面的元素，如果小于堆顶（堆中最大值）就删除堆顶，入堆
+                // 也就是说，保持堆中是目前遍历到的最小 k 个元素
+                pq.poll();
+                pq.offer(num);
+            }
+        }
+        // 堆中所有元素就是所求（倒序）
+        for (int i = 0; i < k; i++) {
+            res.add(pq.poll());
+        }
+        return res;
+    }
+
     public static void test() {
-        System.out.println(new GetLeastNumbers().get3(
+        System.out.println(new GetLeastNumbers().get4(
                 new int[]{4, 5, 1, 6, 2, 7, 3, 8},
                 4
         ));
