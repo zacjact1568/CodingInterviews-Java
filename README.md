@@ -119,3 +119,5 @@
 [复杂链表的复制（Clone）](https://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba)
 
 [链表中倒数第k个结点（FindKthToTail）](https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a)
+
+[字符串的排列（Permutation）](https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7)
