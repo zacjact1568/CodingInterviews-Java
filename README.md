@@ -125,3 +125,5 @@
 [正则表达式匹配（Match）](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c)
 
 [删除链表中重复的结点（DeleteDuplication）](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef)
+
+[翻转单词顺序列（ReverseSentence）](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3)
