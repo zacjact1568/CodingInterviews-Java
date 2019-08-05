@@ -123,3 +123,5 @@
 [字符串的排列（Permutation）](https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7)
 
 [正则表达式匹配（Match）](https://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c)
+
+[删除链表中重复的结点（DeleteDuplication）](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef)
