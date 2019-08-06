@@ -127,3 +127,5 @@
 [删除链表中重复的结点（DeleteDuplication）](https://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef)
 
 [翻转单词顺序列（ReverseSentence）](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3)
+
+[顺时针打印矩阵（PrintMatrix）](https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a)
