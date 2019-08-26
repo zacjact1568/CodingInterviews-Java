@@ -1,5 +1,6 @@
 package net.zackzhang.code.codinginterviews.problems;
 
+/** 平衡二叉树 */
 public class IsBalanced {
 
     private static class TreeNode {
@@ -53,15 +54,15 @@ public class IsBalanced {
     private boolean isBalanced = true;
 
     private boolean isBalanced2(TreeNode root) {
-        depth(root);
+        depth2(root);
         return isBalanced;
     }
 
     /** 返回以 root 为根节点的子树的深度 */
-    private int depth(TreeNode root) {
+    private int depth2(TreeNode root) {
         if (root == null) return 0;
-        int lDepth = depth(root.left);
-        int rDepth = depth(root.right);
+        int lDepth = depth2(root.left);
+        int rDepth = depth2(root.right);
         if (Math.abs(lDepth - rDepth) > 1) {
             // 若以 root 为根节点的子树不是平衡二叉树
             // NOTE：isBalanced 被改为 false 后，就再也无法改回去了，
@@ -74,16 +75,16 @@ public class IsBalanced {
     // ********* 解 3 *********
 
     private boolean isBalanced3(TreeNode root) {
-        return depth2(root) != -1;
+        return depth3(root) != -1;
     }
 
     /** 返回以 root 为根节点的子树的深度 */
-    private int depth2(TreeNode root) {
+    private int depth3(TreeNode root) {
         if (root == null) return 0;
-        int lDepth = depth(root.left);
+        int lDepth = depth3(root.left);
         // 用深度为 -1 来表示左子树不平衡，直接返回 -1（既然左子树都不平衡了，那加上 root 的子树也不平衡了）
         if (lDepth == -1) return -1;
-        int rDepth = depth(root.right);
+        int rDepth = depth3(root.right);
         if (rDepth == -1) return -1;
         // 若左右子树都平衡，但加上 root 就不平衡了，也返回 -1
         return Math.abs(lDepth - rDepth) > 1 ? -1 : Math.max(lDepth, rDepth) + 1;
